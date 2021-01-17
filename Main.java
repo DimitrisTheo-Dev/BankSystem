@@ -5,10 +5,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
         BankAccount bankAccount = new BankAccount("DimtirsTheodoropoulos", "1");
         bankAccount.showMenu();
-
     }
 
     static class BankAccount {
@@ -16,7 +14,6 @@ public class Main {
         int previousTransaction;
         String customerName;
         String customerId;
-
 
         BankAccount(String cname, String cid) {
              customerName = cname;
